@@ -1,0 +1,125 @@
+* CodiOrg
+
+This is a hard fork of CodiOrg, with the intent to replace the MD internals with [[https://github.com/orgapp/orgajs][Orga]].
+
+-----
+
+CodiMD lets you collaborate in real-time with markdown. Built on
+[[https://hackmd.io][HackMD]] source code, CodiMD lets you host and
+control your team's content with speed and ease.
+
+#+CAPTION: screenshot
+[[https://raw.githubusercontent.com/hackmdio/codimd/develop/public/screenshot.png]]
+
+* Table of Contents
+
+- [[*HackMD][HackMD]]
+- [[*CodiMD - The Open Source HackMD][CodiMD - The Open Source HackMD]]
+- [[*Documentation][Documentation]]
+
+  - [[*Deployment][Deployment]]
+  - [[*Configuration][Configuration]]
+  - [[*Upgrading and Migration][Upgrading and Migration]]
+  - [[*Developer][Developer]]
+
+- [[*Contribution and Discussion][Contribution and Discussion]]
+- [[*Browser Support][Browser Support]]
+- [[*License][License]]
+
+** HackMD
+
+[[https://hackmd.io][HackMD]] helps developers write better documents
+and build active communities with open collaboration. HackMD is built
+with one promise - *You own and control all your content*: - You should
+be able to easily [[https://hackmd.io/c/news/%2Fs%2Fr1cx3a3SE][download
+all your online content at once]]. - Your content formatting should be
+portable as well. (That's why we choose
+[[https://hackmd.io/features#Typography][markdown]].) - You should be
+able to control your content's presentation with HTML,
+[[https://hackmd.io/p/slide-example][slide mode]], or
+[[https://hackmd.io/c/book-example/][book mode]].
+
+** CodiMD - The Open Source HackMD
+
+CodiMD is the free software version of [[https://hackmd.io][HackMD]],
+developed and opened source by the HackMD team with reduced features
+(without book mode), you can use CodiMD for your community and own all
+your data. /(See the
+[[https://github.com/hackmdio/hackmd/issues/720][origin of the name
+CodiMD]].)/
+
+CodiMD is perfect for open communities, while HackMD emphasizes on
+permission and access controls for commercial use cases.
+
+HackMD team is committed to keep CodiMD open source. All contributions
+are welcome!
+
+** Documentation
+
+You would find all documentation here:
+[[https://hackmd.io/c/codimd-documentation][CodiMD Documentation]]
+
+*** Deployment
+
+If you want to spin up an instance and start using immediately, see
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-docker-deployment][Docker
+deployment]]. If you want to contribute to the project, start with
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-manual-deployment][manual
+deployment]].
+
+*** Configuration
+
+CodiMD is highly customizable, learn about all configuration options of
+networking, security, performance, resources, privilege, privacy, image
+storage, and authentication in
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-configuration][CodiMD
+Configuration]].
+
+*** Upgrading and Migration
+
+Upgrade CodiMD from previous version? See
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-upgrade][this
+guide]] Migrating from Etherpad? Follow
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-migration-etherpad][this
+guide]]
+
+*** Developer
+
+Join our contributor community! Start from deploying
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-manual-deployment][CodiMD
+manually]],
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-db-connection][connecting
+to your own database]],
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-project-structure][learn
+about the project structure]], to
+[[https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-webpack][build
+your changes]] with the help of webpack.
+
+** Contribution and Discussion
+
+All contributions are welcome! Even asking a question helps.
+
+| Project | Contribution Types                       | Contribution Venue |
+|---------+------------------------------------------+--------------------|
+| *CodiMD*  | :couple: Community chat                  | [[https://gitter.im/hackmdio/hackmd][Gitter]]             |
+|         | :bug: Issues, bugs, and feature requests | [[https://github.com/hackmdio/codimd/issues][Issue tracker]]      |
+|         | :books: Improve documentation            | [[https://hackmd.io/c/codimd-documentation][Documentations]]     |
+|         | :pencil: Translation                     | [[https://poeditor.com/join/project/q0nuPWyztp][POEditor]]           |
+|         | :coffee: Donation                        | [[https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KDGS4PREHX6QQ&lc=US&item_name=HackMD&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted][Buy us coffee]]      |
+| *HackMD*  | :question: Issues related to [[https://hackmd.io/][HackMD]]      | [[https://github.com/hackmdio/hackmd-io-issues/issues][Issue tracker]]      |
+|         | :pencil2: Translation                    | [[https://github.com/hackmdio/hackmd-locales/tree/master/locales][hackmd-locales]]     |
+
+** Browser Support
+
+CodiMD is a service that runs on Node.js, while users use the service
+through browsers. We support your users using the following browsers: -
+Chrome ≥ 47, Chrome for Android ≥ 47 - Safari ≥ 9, iOS Safari ≥
+8.4 - Firefox ≥ 44 - IE ≥ 9, Edge ≥ 12 - Opera ≥ 34, Opera Mini not
+supported - Android Browser ≥ 4.4
+
+To stay up to date with your installation it's recommended to subscribe
+the [[https://github.com/hackmdio/codimd/releases.atom][release feed]].
+
+** License
+
+*License under AGPL.*
